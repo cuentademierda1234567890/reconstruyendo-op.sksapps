@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url(./img/3D_Anima.gif);
+    background-color: #0A4284;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+    font-size: 21.12px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 20px;
+    flex: auto;
+    align-items: center;
+    /* border: solid yellow; */
+}
+
+ul{
+    /* border: solid yellow; */
+}
+
+nav ul li{
+    /* border: solid yellow; */
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    font-size: 20px;
+    background-color: #BADCDA;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1px;
+    padding: 2px 6px;
+    font-family: Arial,sans-serif;
+}
+
+nav ul li a:hover{
+    color: lime;
+}
+
+.nav-button{
+    align-items: stretch;
+    
+}
+
+.logo{
+    align-self: flex-start;
+    height: 120px;
+    width: 232px;
+    margin: 0 20px;
+    
+
+}
+
+.azul{
+    background-color: #0873A0;
+    height: 16px;
+}
+
+hr{
+    margin: 7.33333px 0;
+    color: white;
+    
+}
+
+.post{
+    background-color: rgba(0,0,0,58%);
+    height: 4000px;
+    width: 80%;
+    margin: 35px auto;
+    padding: 15px;
+    color: white;
+}
+
+.flex-container{
+    margin-bottom: 50px;
+}
+
+.footer{
+    color: white;
+}
